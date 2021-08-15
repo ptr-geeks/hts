@@ -5,9 +5,27 @@ challenges:
 - name: chall02
   flag: "Back in Black"
   key: "624a53e658a5956143dc5e2c9b2f8ecf328e955585f6893211440d6f7f593c5c"
+- name: chall03
+  flag: "Teh c0d3z"
+  key: "256bf6357de55223fb3269460b41fe99a73a19177deb00b8f081e5ab3985f256"
+- name: chall04
+  flag: "******************"
+  key: "491e4e4fa25cd3f757009c20119d798c908db3bdac242912772265903cf03955"
+- name: chall05
+  flag: "Marjan"
+  key: "e58db338cdfd6b9062cd2d7741182b2e65e15a1a2d55045b1f01d06cf5301066"
 - name: chall06
   flag: "Indexing all of this random information is a pain..."
   key: "50e2cc688d0868ebbe8bac016cd8b9a06ae96ee932851b80becc0881b261c6f2"
+- name: chall07
+  flag: "Racunalniski vodovodar"
+  key: "372f67b2977d29acd2fe31de784df97b3202d9280d6fadb7a33554351463ea7d"
+- name: chall08
+  flag: "Zgovorne slike"
+  key: "433a510b61f07176ab302bc64c6cd731c19e9205757a99e538dcfa365c817623"
+- name: chall09
+  flag: "R3vers3 Engin33r1ng"
+  key: "6c5c2580f28f221e749f353bad88cb9d07eec9d3923efbfba4a66e4419475ece"
 - name: chall10
   flag: "It can't be DNS... I can't possibly be DNS... It was DNS :("
   key: "4cb6406c923eccb9c8da9de3c425e97826d969926720b8bac45d58c768d1b2e0"
