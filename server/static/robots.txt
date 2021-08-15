@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /privat.txt
+Disallow: /s/privat.txt

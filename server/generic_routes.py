@@ -10,3 +10,6 @@ def win():
 
 def favicon():
     return helpers.uncache(send_from_directory("./static", "favicon.png", cache_timeout=0))
+
+def robots():
+    return helpers.uncache(send_from_directory("./static", "robots.txt", cache_timeout=0))

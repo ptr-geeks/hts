@@ -12,4 +12,6 @@ def challenge(flag, next_challenge):
         return helpers.uncache(send_from_directory("./templates", "chall05.html", cache_timeout=0))
 
 def static(name):
+    if name == 'privat.txt':
+        return helpers.uncache(send_from_directory("./templates/chall05", "privat.txt", cache_timeout=0))
     return helpers.serve_static(name)
