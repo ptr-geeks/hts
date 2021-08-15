@@ -17,5 +17,5 @@ def static(name):
     r = helpers.serve_static(name)
     if name == 'faviconGreen.png':
         r = helpers.uncache(send_from_directory(
-            "./templates/chall07", "faviconPurple.png", cache_timeout=0))
+            "./templates/chall08", "faviconPurple.png", cache_timeout=0))
     return r
