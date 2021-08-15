@@ -5,3 +5,9 @@ challenges:
 - name: chall02
   flag: "Back in Black"
   key: "624a53e658a5956143dc5e2c9b2f8ecf328e955585f6893211440d6f7f593c5c"
+- name: chall06
+  flag: "Indexing all of this random information is a pain..."
+  key: "50e2cc688d0868ebbe8bac016cd8b9a06ae96ee932851b80becc0881b261c6f2"
+- name: chall10
+  flag: "It can't be DNS... I can't possibly be DNS... It was DNS :("
+  key: "4cb6406c923eccb9c8da9de3c425e97826d969926720b8bac45d58c768d1b2e0"
