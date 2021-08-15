@@ -1,4 +1,7 @@
 challenges:
 - name: chall01
   flag: "Sanity check"
-  key: "asd"
+  key: "a7afb280b2e156b43076abec60416e90b92aa081f538a54042e979b95b79aa54"
+- name: chall02
+  flag: "Back in Black"
+  key: "624a53e658a5956143dc5e2c9b2f8ecf328e955585f6893211440d6f7f593c5c"
