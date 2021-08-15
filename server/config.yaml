@@ -1,0 +1,4 @@
+challenges:
+- name: chall01
+  flag: "Sanity check"
+  key: "asd"
