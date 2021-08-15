@@ -17,3 +17,14 @@
 .mt3 { margin-top: 5vh; }
 .mt4 { margin-top: 8vh; }
 .mt5 { margin-top: 13vh; }
+
+code, pre{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-shadow: none;
+    font-size: 1.25em;
+    display: inline-block;
+    background-color: #333;
+}
