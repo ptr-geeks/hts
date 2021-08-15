@@ -1,0 +1,62 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>PTR 2021 Hack this site</title>
+    <link rel="stylesheet" href="s/styleBSidesTheme.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="s/styleHts.css" type="text/css" media="screen">
+    <link rel="shortcut icon" type="image/png" href="s/faviconGreen.png" />
+</head>
+
+<body>
+    <div class="mainWrap">
+
+        <div class="block txtCenter borderBottom">
+            <h1>Hack this site</h1>
+            <h2>Poletni tabor računalništva 2021</h2>
+        </div>
+
+        <div class="block txtCenter mt4">
+            <h1>9. Izziv: Vzvratni inžinir za en dan</h1>
+            <p>
+                Naši inžinirji so pozabili naš flag kar na strani!<br>
+                <code>MyxSLBcsACwTLBAscCw3LBcsWSxlLCMsMSwjLDksBiwiLF0sZQ==</code><br>
+                Na (njihovo) srečo so zašifrirali flag pred to usodno napako.
+                Na (tvojo) srečo pa so tudi pustili izvirno kodo za kodiranje flaga.
+                Dešifriraj flag in se sooči še s poslednjim izzivom! <br>
+            <pre style="text-align: left;">
+function encrypt(f) {
+    const k = "aed71c39d81eba89d05a66c0f2f332c4bac461eb31d95ad5bc9fe23d89a0d967";
+    let r = [];
+
+    for(let i = 0; i \< f.length; i++) {
+        let e = f.charCodeAt(i) ^ k.charCodeAt(k.length % i);
+        if(i > 4) {
+            e = e ^ f.charCodeAt(k.length % (i-1));
+        }
+        r.push(e);
+    }
+    for(let i = 0; i \< r.length; i++) {
+        r[i] = String.fromCharCode(r[i])
+    }
+    return btoa(r);
+} 
+</pre>
+            </p>
+        </div>
+        <div class="block txtCenter mt4">
+            <p>
+            <form method="POST" autocomplete="off">
+                <input type="text" name="flag" autofocus />
+                <input type="submit" name="submit" value="Preveri" />
+            </form>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

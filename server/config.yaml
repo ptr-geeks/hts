@@ -20,3 +20,6 @@ challenges:
 - name: chall08
   flag: "Zgovorne slike"
   key: "433a510b61f07176ab302bc64c6cd731c19e9205757a99e538dcfa365c817623"
+- name: chall09
+  flag: "R3vers3 Engin33r1ng"
+  key: "6c5c2580f28f221e749f353bad88cb9d07eec9d3923efbfba4a66e4419475ece"
