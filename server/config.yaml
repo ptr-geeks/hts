@@ -5,3 +5,6 @@ challenges:
 - name: chall02
   flag: "Back in Black"
   key: "624a53e658a5956143dc5e2c9b2f8ecf328e955585f6893211440d6f7f593c5c"
+- name: chall04
+  flag: "******************"
+  key: "491e4e4fa25cd3f757009c20119d798c908db3bdac242912772265903cf03955"
