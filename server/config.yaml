@@ -8,3 +8,6 @@ challenges:
 - name: chall04
   flag: "******************"
   key: "491e4e4fa25cd3f757009c20119d798c908db3bdac242912772265903cf03955"
+- name: chall07
+  flag: "Racunalniski vodovodar"
+  key: "372f67b2977d29acd2fe31de784df97b3202d9280d6fadb7a33554351463ea7d"
