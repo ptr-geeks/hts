@@ -5,9 +5,15 @@ challenges:
 - name: chall02
   flag: "Back in Black"
   key: "624a53e658a5956143dc5e2c9b2f8ecf328e955585f6893211440d6f7f593c5c"
+- name: chall03
+  flag: "Teh c0d3z"
+  key: "256bf6357de55223fb3269460b41fe99a73a19177deb00b8f081e5ab3985f256"
 - name: chall04
   flag: "******************"
   key: "491e4e4fa25cd3f757009c20119d798c908db3bdac242912772265903cf03955"
+- name: chall05
+  flag: "Marjan"
+  key: "e58db338cdfd6b9062cd2d7741182b2e65e15a1a2d55045b1f01d06cf5301066"
 - name: chall07
   flag: "Racunalniski vodovodar"
   key: "372f67b2977d29acd2fe31de784df97b3202d9280d6fadb7a33554351463ea7d"

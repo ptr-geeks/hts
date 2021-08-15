@@ -4,19 +4,19 @@ HTS is a series of Hacking challanges with each increasing in difficulty and a c
 
 ## Basic challenges
 
-### 01. Sanity check
+### 01. Sanity check - AJ DONE
 
-### 02. White on white
+### 02. White on white - AJ DONE
 
-### 03. HTML Comment
+### 03. HTML Comment - MV NEEDS MORE STORY
 
-### 04. Disabled password/submit
+### 04. Disabled password/submit - FT
 
-### 05. robots.txt
+### 05. robots.txt - MV NEEDS MORE STORY
 
 ### 06. Autoindex
 
-### 07. Network check
+### 07. Network check - FT
 
 ### 08. Image metadata
 
