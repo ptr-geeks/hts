@@ -7,5 +7,5 @@ COPY server /app
 
 RUN pip install -r /app/requirements.txt
 
-EXPOSE 80
-ENTRYPOINT gunicorn -w 8 -b 0.0.0.0:80 server:app
+EXPOSE 8080
+ENTRYPOINT gunicorn -w 8 -b 0.0.0.0:8080 server:app
