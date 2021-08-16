@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 from flask import request, make_response, redirect, send_from_directory
 
 
@@ -26,7 +27,8 @@ def next_challenge(config):
 
     response = make_response(redirect('/challenge'))
     if chall != "_win":
-        response.set_cookie("c", key)
+        expires = datetime.now() + timedelta(days=7)
+        response.set_cookie("c", key, expires=expires)
     return response
 
 
