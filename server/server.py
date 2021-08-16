@@ -1,10 +1,13 @@
 from flask import Flask, make_response, redirect
 import yaml
-from yaml import CLoader as Loader
+try:
+    from yaml import CLoader as Loader
+except ImportError:
+    from yaml import Loader
 import importlib
 
-from . import helpers
-from . import generic_routes
+import helpers
+import generic_routes
 
 # Load config
 with open("config.yaml") as f:
@@ -37,7 +40,7 @@ def challenge():
     if chall == "_win":
         return generic_routes.win()
 
-    module_name = ".chall." + chall
+    module_name = "chall." + chall
     module = importlib.import_module(module_name, package=__package__)
     return module.challenge(flag, helpers.next_challenge(config))
 
@@ -48,7 +51,7 @@ def static_route(name):
     if chall == "_win":
         return helpers.serve_static(name)
 
-    module_name = ".chall." + chall
+    module_name = "chall." + chall
     module = importlib.import_module(module_name, package=__package__)
     return module.static(name)
 

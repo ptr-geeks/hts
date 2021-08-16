@@ -1,6 +1,6 @@
 from flask import request, redirect, send_from_directory
 
-from .. import helpers
+import helpers
 
 def challenge(flag, next_challenge):
     if request.method == "POST":
