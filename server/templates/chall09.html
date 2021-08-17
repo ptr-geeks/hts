@@ -33,14 +33,14 @@ function encrypt(f) {
     const k = "aed71c39d81eba89d05a66c0f2f332c4bac461eb31d95ad5bc9fe23d89a0d967";
     let r = [];
 
-    for(let i = 0; i \< f.length; i++) {
+    for(let i = 0; i < f.length; i++) {
         let e = f.charCodeAt(i) ^ k.charCodeAt(k.length % i);
         if(i > 4) {
             e = e ^ f.charCodeAt(k.length % (i-1));
         }
         r.push(e);
     }
-    for(let i = 0; i \< r.length; i++) {
+    for(let i = 0; i < r.length; i++) {
         r[i] = String.fromCharCode(r[i])
     }
     return btoa(r);

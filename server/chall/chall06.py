@@ -172,7 +172,7 @@ def static(name):
             "nabor": {
                 "vse_skupaj": "To je že sadna solata? A to spada pol v zelenjavo?",
                 "jabolko": "A je ta tisti, ki je padel Newtnu na glavo?",
-                "paradiznik": "9. pain...",
+                "paradiznik": "Sej paradiznikova solata je torej tudi sadna solata!",
                 "hruske": "Super zadeva za izdelavo zvarkov! Ampak rabi biti pravi tip hruške.",
             },
         },
