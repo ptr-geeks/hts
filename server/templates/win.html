@@ -19,25 +19,41 @@
         </div>
 
         <div class="block txtCenter mt4">
-            <p id="p1">
+            <div id="p1">
                 <h3>Zmaga!</h3>
                 To, da si tukaj, nam veliko pomeni.
                 Hvala za trud in iskrene čestitke!
-            </p>
-            <p id="p2" class="fade" style="opacity: 0; display: none;">
+            </div>
+            <div id="p2" class="fade" style="opacity: 0; visibility: hidden;">
                 <h3>Dobrodošel v Matrici</h3>
                 Pripravljen si, da vidiš splet, takšen, kakršen je.
                 Mentroji smo te že težko pričakovali.
-            </p>
+
+                <img src="/s/matrix.gif" class="mt3" />
+
+                <div class="mt3">
+                    Pridi do mentorja in mu zašepetaj na uho 
+                    <span id="spoilerHdl"><strong>[ HOVER TO SEE ]</strong>:</span> <span id="spoilerC" style="opacity: 0;" class="fade">&quot;Bilo je prelahko&quot;</span>.
+                    <br />Če si bil prvi, te čaka nagrada!
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
         setTimeout(() => {
-            document.getElementById("p1").style.display = "none";
-            document.getElementById("p2").style.display = "";
+            //document.getElementById("p1").style.display = "none";
+            document.getElementById("p2").style.visibility = "";
             document.getElementById("p2").style.opacity = 1;
-        }, 6000);
+
+            document.getElementById("spoilerHdl").onmouseenter = () => {
+                document.getElementById("spoilerC").style.opacity = 1;
+            };
+            document.getElementById("spoilerHdl").onmouseleave = () => {
+                document.getElementById("spoilerC").style.opacity = 0;
+            };
+            
+        }, 5000);
     </script>
 </body>
 </html>
