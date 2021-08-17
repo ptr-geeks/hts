@@ -19,13 +19,25 @@
         </div>
 
         <div class="block txtCenter mt4">
-            <p>
+            <p id="p1">
                 <h3>Zmaga!</h3>
                 To, da si tukaj, nam veliko pomeni.
                 Hvala za trud in iskrene čestitke!
             </p>
+            <p id="p2" class="fade" style="opacity: 0; display: none;">
+                <h3>Dobrodošel v Matrici</h3>
+                Pripravljen si, da vidiš splet, takšen, kakršen je.
+                Mentroji smo te že težko pričakovali.
+            </p>
         </div>
     </div>
 
+    <script>
+        setTimeout(() => {
+            document.getElementById("p1").style.display = "none";
+            document.getElementById("p2").style.display = "";
+            document.getElementById("p2").style.opacity = 1;
+        }, 6000);
+    </script>
 </body>
 </html>
