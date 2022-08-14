@@ -55,3 +55,5 @@ def static_route(name):
     module = importlib.import_module(module_name, package=__package__)
     return module.static(name)
 
+if __name__ == '__main__':
+    app.run()
